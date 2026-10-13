@@ -15,9 +15,16 @@
 .hero .accent{background:#df4149;width:80px;height:5px}
 .hero p{color:#e2f0eb;max-width:540px;font-size:19px;line-height:1.65}
 @media(max-width:700px){.hero{min-height:330px!important}.hero .wrap{padding:50px 0!important}.hero:after{right:-35px;opacity:.5}.hero h1{font-size:clamp(36px,9vw,53px)!important}}
+/* Hukuk ve savunma temali, fotograf kullanmayan kapak */
+.hero:after{content:none!important}
+.justice-art{position:absolute;right:max(3%,calc((100vw - 1180px)/2));top:50%;width:min(37vw,455px);transform:translateY(-50%);opacity:.32;pointer-events:none;z-index:0;filter:drop-shadow(0 12px 26px #0004)}
+.justice-art svg{display:block;width:100%;height:auto}
+.hero .wrap{z-index:2}
+.hero{background:radial-gradient(circle at 83% 50%,#215a4b 0%,transparent 43%),linear-gradient(118deg,#081b20 0%,#103e35 62%,#102e30 100%)!important}
+@media(max-width:760px){.justice-art{right:-55px;width:260px;opacity:.13}.hero .wrap{position:relative}}
 </style></head><body><div class="ribbon"></div>
 <header><div class="wrap top"><a class="brand" href="../index.html"><img src="../logo.webp" alt="Demokrat Avukatlar Değişim Grubu logosu"><span><b>DEMOKRAT AVUKATLAR<br>DEĞİŞİM GRUBU</b><small>ANKARA</small></span></a><button class="menu" aria-label="Menüyü aç" aria-expanded="false" onclick="const n=document.getElementById('nav');const opened=n.classList.toggle('open');this.setAttribute('aria-expanded',opened)">☰</button><nav id="nav" class="nav"><a href="#hakkimizda">Hakkımızda</a><a href="#temsilci">İl Temsilcisi</a><a href="#yonetim">İl Yönetim Kurulu</a><a href="#etkinlikler">Etkinlikler</a><a href="#haberler">Haberler</a><a href="#iletisim">İletişim</a><a class="home" href="../index.html">⌂ &nbsp; Ana Sayfa</a></nav></div></header>
-<section class="hero"><div class="wrap"><h1>Demokrat Avukatlar<br>Değişim Grubu<br><span class="ankara-title">ANKARA</span></h1><div class="accent"></div><p>Daha adil bir hukuk sistemi, daha güçlü bir gelecek için birlikteyiz.</p></div></section>
+<section class="hero"><div class="justice-art" aria-hidden="true"><svg viewBox="0 0 440 390" fill="none" xmlns="http://www.w3.org/2000/svg"><g stroke="#c7e7d7" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"><path d="M220 63v250M159 315h122M132 339h176M220 90l-139 48M220 90l139 48M81 138l-45 96h90L81 138ZM359 138l-45 96h90l-45-96ZM36 234q45 45 90 0M314 234q45 45 90 0"/><circle cx="220" cy="49" r="17"/><path d="M183 315h74"/></g><g stroke="#d5b07b" stroke-width="4"><path d="M72 142v78M90 142v78M350 142v78M368 142v78"/></g></svg></div><div class="wrap"><h1>Demokrat Avukatlar<br>Değişim Grubu<br><span class="ankara-title">ANKARA</span></h1><div class="accent"></div><p>Daha adil bir hukuk sistemi, daha güçlü bir gelecek için birlikteyiz.</p></div></section>
 <div class="demo">Bu sayfadaki kişi adları, fotoğraflar, etkinlikler, iletişim ve sosyal medya bilgileri tasarım amaçlı örnektir; gerçek bilgileri daha sonra ekleyeceğiz.</div>
 <main class="wrap main">
 <div class="intro-grid">
