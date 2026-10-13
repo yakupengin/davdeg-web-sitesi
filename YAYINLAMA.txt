@@ -1,0 +1,9 @@
+CANLI ONIZLEME YAYINLAMA
+
+1. https://app.netlify.com/drop adresine gidin.
+2. Bu ZIP dosyasini bilgisayarinizda bir kez klasore cikarin.
+3. ZIP icindeki dadg-site klasorunu Netlify Drop alanina surukleyin.
+4. Netlify size paylasilabilir bir https://...netlify.app adresi verir.
+5. Sonraki guncellemelerde ayni Netlify sitesinin Deploys alanindan yeni klasoru yukleyerek ayni adresi koruyabilirsiniz.
+
+Il sayfalari: Ankara, Istanbul, Izmir. Diger iller icin simdilik bilgilendirme mesaji gosterilir.
